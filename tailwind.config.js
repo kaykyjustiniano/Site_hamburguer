@@ -10,7 +10,8 @@ module.exports = {
     },
     
     fontFamily: {
-      sans: ['Bowlby One']
+      sans: ['Bowlby One'],
+      serif:['Passion One']
 
     },
     extend: {

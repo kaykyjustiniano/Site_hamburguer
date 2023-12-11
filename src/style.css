@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* CONFIGURAÇÕES DA BARRA DE NAVEGAÇÃO */
+nav{
+  padding: 10px 15px;
+}
+.navegacao,.menu{
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10px;
+  gap: 60px;
+  color: #fff;
+}
+.menu-links{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+
+/* CONFIGURAÇÕES DOS BOTÕES */
+.botao-order {
+  height: 50px;
+  width: 176px;
+  font-size: 15px;
+  padding: 5px;
+  background-color: #B3A0CD;
+  color: #1E1E1E;
+  cursor: pointer;
+
+}
+.botao-about {
+  height: 60px;
+  width: 176px;
+  font-size: 20px;
+  padding: 5px;
+  background-color: #B3A0CD;
+  color: #1E1E1E;
+  border: 5px solid #1E1E1E;
+  cursor: pointer;
+  box-shadow: 10px 10px 0px rgb(0, 0, 0);
+}
+
+
+/* CONFIGURAÇÕES DA SEÇÃO 1 --CONTÉUDO PRINCIPAL-- */
+.conteudo-principal{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px 400px 200px;
+}
+.conteudo-texto{
+  margin-top: 50px;
+}
+.conteudo-imagen{
+  margin-top: -5rem;
+}
+
+/* CONFIGURAÇÕES DA SEÇÃO 1 --CONTÉUDO INFORMATIVO-- */
+.informativos{
+  border: 5px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  background-color: #D1EF53;
+  border-radius: 30px;
+  margin: 0 40PX;
+}
+.conteudo-informativo{
+  margin: 0 50PX;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+.conteudo-informativos-links{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 34px;
+
+}

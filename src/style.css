@@ -5,7 +5,7 @@
 
 /* CONFIGURAÇÕES DA BARRA DE NAVEGAÇÃO */
 nav{
-  padding: 10px 15px;
+  padding: 20px 15px;
 }
 .navegacao,.menu{
   font-size: 18px;
@@ -89,4 +89,44 @@ nav{
   align-items: flex-start;
   gap: 34px;
 
+}
+
+
+.conteudo-secundario{
+  gap: 60px;
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: 2fr  2fr;
+  grid-template-rows: 550px;
+  padding: 100px;
+}
+
+.conteudo-secundario-item1, .conteudo-secundario-item2{
+  box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.235);
+  display: flex;
+  align-items: flex-end;
+  border: 5px solid #E9E3DC;
+  border-radius: 30px;
+  padding: 10%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.conteudo-secundario-item1{
+  background-image: url(imgs/png/batata.png);
+}
+.conteudo-secundario-item2{
+  background-image: url(imgs/png/hamburguer.png);
+}
+
+.conteudo-secundario-items-textos{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  height: 150px;
+  background-color:  #1E1E1E;
+  border: 5px solid rgba(0, 0, 0, 0.094);
+  border-radius: 30px;
 }

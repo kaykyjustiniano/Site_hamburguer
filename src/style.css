@@ -64,7 +64,7 @@ nav{
 }
 
 /* CONFIGURAÇÕES DA SEÇÃO 1 --CONTÉUDO INFORMATIVO-- */
-.informativos{
+.informativos,.conteudo-secundario-banner{
   border: 5px solid black;
   display: flex;
   align-items: center;
@@ -91,14 +91,14 @@ nav{
 
 }
 
-
+/* CONFIGURAÇÕES DA SEÇÃO 2 --CONTÉUDO ADICIONAIS-- */
 .conteudo-secundario{
   gap: 60px;
-  margin-top: 64px;
+  margin: 64px 0px;
   display: grid;
   grid-template-columns: 2fr  2fr;
-  grid-template-rows: 550px;
-  padding: 100px;
+  grid-template-rows: 500px;
+  padding: 100px 100px 0px 100px;
 }
 
 .conteudo-secundario-item1, .conteudo-secundario-item2{
@@ -129,4 +129,22 @@ nav{
   background-color:  #1E1E1E;
   border: 5px solid rgba(0, 0, 0, 0.094);
   border-radius: 30px;
+}
+
+
+
+.conteudo-secundario-texto{
+  margin-bottom: 64px;
+  text-transform: uppercase;
+  font-size: 50px;
+  height: 95px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #D1EF53;
+}
+
+.conteudo-secundario-banner{
+  background-image: url(imgs/png/banner-pessoas.png);
 }
